@@ -4,6 +4,7 @@ __pycache__/
 .venv/
 venv/
 env/
+*.egg-info/
 
 # Environment
 .env
@@ -17,9 +18,9 @@ env/
 *.csv
 
 # ML artifacts
-/models/*.pkl
-/models/*.joblib
-/models/*.pt
+*.pkl
+*.joblib
+*.pt
 
 # IDE / OS
 .vscode/

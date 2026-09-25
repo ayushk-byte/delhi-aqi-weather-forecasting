@@ -1,0 +1,12 @@
+{
+  "name": "seasonal_diurnal_baseline",
+  "target_pollutant": "pm25",
+  "horizons_hours": [
+    6,
+    12,
+    24,
+    48
+  ],
+  "num_features": 105,
+  "is_fitted": true
+}

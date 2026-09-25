@@ -1,0 +1,48 @@
+{
+  "registered_at": "2026-09-24T18:37:33.731172+00:00",
+  "model_name": "seasonal_diurnal_baseline",
+  "target_pollutant": "pm25",
+  "version": "v_20260924_183733",
+  "is_champion": false,
+  "metrics": {
+    "average_mae": 35.28,
+    "by_horizon": {
+      "6": {
+        "mae": 60.07,
+        "rmse": 66.33,
+        "r2": -1.1166,
+        "mbe": -1.64,
+        "category_accuracy": 0.4415,
+        "within_one_bucket_acc": 0.7226,
+        "severe_recall": 1.0
+      },
+      "12": {
+        "mae": 81.07,
+        "rmse": 90.64,
+        "r2": -2.7956,
+        "mbe": -4.19,
+        "category_accuracy": 0.249,
+        "within_one_bucket_acc": 0.6328,
+        "severe_recall": 1.0
+      },
+      "24": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "r2": 1.0,
+        "mbe": 0.0,
+        "category_accuracy": 1.0,
+        "within_one_bucket_acc": 1.0,
+        "severe_recall": 1.0
+      },
+      "48": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "r2": 1.0,
+        "mbe": 0.0,
+        "category_accuracy": 1.0,
+        "within_one_bucket_acc": 1.0,
+        "severe_recall": 1.0
+      }
+    }
+  }
+}

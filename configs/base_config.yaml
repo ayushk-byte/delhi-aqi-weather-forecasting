@@ -1,0 +1,68 @@
+project:
+  name: "delhi-aqi-weather-forecasting"
+  version: "0.1.0"
+  timezone: "Asia/Kolkata"
+
+region:
+  name: "Delhi NCR"
+  bounding_box:
+    min_lat: 28.35
+    max_lat: 28.90
+    min_lon: 76.85
+    max_lon: 77.40
+  center:
+    lat: 28.6139
+    lon: 77.2090
+
+forecast:
+  target_pollutants:
+    - "pm25"
+    - "pm10"
+  horizons_hours:
+    - 6
+    - 12
+    - 24
+    - 48
+    - 72
+
+stations:
+  - id: "DL001"
+    name: "Anand Vihar, Delhi - DPCC"
+    lat: 28.6473
+    lon: 77.3158
+    cpcb_id: "site_115"
+  - id: "DL002"
+    name: "Punjabi Bagh, Delhi - DPCC"
+    lat: 28.6740
+    lon: 77.1310
+    cpcb_id: "site_118"
+  - id: "DL003"
+    name: "R K Puram, Delhi - DPCC"
+    lat: 28.5632
+    lon: 77.1869
+    cpcb_id: "site_119"
+  - id: "DL004"
+    name: "ITO, Delhi - CPCB"
+    lat: 28.6286
+    lon: 77.2410
+    cpcb_id: "site_103"
+  - id: "DL005"
+    name: "Dwarka-Sector 8, Delhi - DPCC"
+    lat: 28.5710
+    lon: 77.0667
+    cpcb_id: "site_122"
+  - id: "DL006"
+    name: "Jahangirpuri, Delhi - DPCC"
+    lat: 28.7328
+    lon: 77.1706
+    cpcb_id: "site_114"
+  - id: "DL007"
+    name: "Bawana, Delhi - DPCC"
+    lat: 28.7762
+    lon: 77.0511
+    cpcb_id: "site_113"
+  - id: "DL008"
+    name: "Wazirpur, Delhi - DPCC"
+    lat: 28.6998
+    lon: 77.1654
+    cpcb_id: "site_125"

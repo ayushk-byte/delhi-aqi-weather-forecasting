@@ -1,0 +1,48 @@
+{
+  "registered_at": "2026-09-24T18:37:33.757237+00:00",
+  "model_name": "weather_coupled_lightgbm",
+  "target_pollutant": "pm25",
+  "version": "v_20260924_183733",
+  "is_champion": true,
+  "metrics": {
+    "average_mae": 0.55,
+    "by_horizon": {
+      "6": {
+        "mae": 1.22,
+        "rmse": 3.3,
+        "r2": 0.9947,
+        "mbe": -0.51,
+        "category_accuracy": 1.0,
+        "within_one_bucket_acc": 1.0,
+        "severe_recall": 1.0
+      },
+      "12": {
+        "mae": 0.35,
+        "rmse": 1.25,
+        "r2": 0.9993,
+        "mbe": -0.1,
+        "category_accuracy": 1.0,
+        "within_one_bucket_acc": 1.0,
+        "severe_recall": 1.0
+      },
+      "24": {
+        "mae": 0.32,
+        "rmse": 1.2,
+        "r2": 0.9993,
+        "mbe": -0.07,
+        "category_accuracy": 1.0,
+        "within_one_bucket_acc": 1.0,
+        "severe_recall": 1.0
+      },
+      "48": {
+        "mae": 0.31,
+        "rmse": 1.19,
+        "r2": 0.9993,
+        "mbe": -0.07,
+        "category_accuracy": 1.0,
+        "within_one_bucket_acc": 1.0,
+        "severe_recall": 1.0
+      }
+    }
+  }
+}
