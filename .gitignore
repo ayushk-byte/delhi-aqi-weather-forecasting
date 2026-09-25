@@ -6,14 +6,19 @@ venv/
 env/
 *.egg-info/
 
+# Tests & Linters
+.pytest_cache/
+.ruff_cache/
+
 # Environment
 .env
 .env.*
 !.env.example
 
-# Data
+# Data & Runtime Cache
 /data/raw/
 /data/processed/
+/data/cache/
 *.parquet
 *.csv
 
