@@ -54,4 +54,4 @@ select = ["E", "F", "W", "I", "UP"]
 ignore = ["E501"]
 
 [tool.vercel]
-entrypoint = "src/api/main.py"
+entrypoint = "src/api/main.py:app"
